@@ -1,0 +1,82 @@
+
+.home-page {
+    background-color: rgb(100, 110, 200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page .logo {
+    margin-top: 60px;
+    width: 80%;
+    max-width: 600px;
+    color: white;
+}
+
+.home-page svg {
+    width: 100%;
+    height: 100%;
+}
+
+.home-page .play {
+    background-color: rgba(125, 125, 255, 0.75);
+
+    margin-top: 40px;
+    border-radius: 4px;
+    max-width: 400px;
+    width: 90%;
+    padding: 24px;
+    /* aspect-ratio: 1.5; */
+    /* FIXME: change back to aspect ratio 1.5 when you have good designs for golems / characters to go in middle */
+    aspect-ratio: 2.5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-page .play .user-name {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.home-page button {
+    margin-top: 4px;
+
+    width: 100%;
+    height: 40px;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #38c336;
+
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.home-page .footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+}
+
+.home-page .footer > * {
+    margin-left: 8px;
+}
+
+.home-page a {
+    color: white;
+}
+
+@media only screen and (min-width: 500px) {
+    .home-page .play .user-name {
+        font-size: 32px;
+    }
+}
+

@@ -1,0 +1,27 @@
+
+
+.crystal-count {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+}
+
+.crystal-count .crystal {
+    width: 22.5%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.crystal svg {
+    aspect-ratio: 1;
+    width: 100%;
+    height: fit-content
+}
+
+@media only screen and (min-width: 900px) {
+    .crystal-count {
+        font-size: 12px;
+    }
+}

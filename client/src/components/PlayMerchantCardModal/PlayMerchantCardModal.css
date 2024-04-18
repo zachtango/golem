@@ -1,0 +1,27 @@
+.modal .upgrade-controls .upgrades {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal .upgrade-controls .crystal-count {
+    width: 70%;
+}
+
+.modal .upgrade-controls .buttons {
+    width: 100%;;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal .upgrade-controls .buttons button {
+    width: 35%;
+}
+
+.modal .trade-controls .trades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15%;
+}

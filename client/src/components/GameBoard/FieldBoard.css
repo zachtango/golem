@@ -1,0 +1,67 @@
+.field-board {
+    height: 56.5%;
+}
+
+.field-board .card {
+    width: 10%;
+    margin-left: 2.5%;
+}
+
+.field-board .card:first-child {
+    margin-left: 0;
+}
+
+.field-board .point-cards, .field-board .merchant-cards {
+    height: 50%;
+}
+
+.field-board .tokens {
+    width: 22.5%;
+    height: 27.5%;
+    margin-left: auto;
+    margin-right: 27.5%;
+    display: flex;
+}
+
+.field-board .token {
+    width: 25%;
+}
+
+.field-board .token:first-child {
+    margin-left: calc((4 * 100% / 9 - 25%) / 2);
+}
+
+.field-board .token:last-child {
+    margin-left: auto;
+    margin-right: calc((4 * 100% / 9 - 25%) / 2);
+}
+
+.field-board .tokens > div {
+    height: 100%;
+}
+
+.field-board .cards {
+    height: 80%;
+    display: flex;
+}
+
+.field-board .merchant-cards .cards {
+    align-items:last baseline;
+}
+
+.field-board .crystals {
+    height: 20%;
+
+    display: flex;
+    justify-content: right;
+}
+
+.field-board .crystal-display {
+    width: 10%;
+    
+    margin-right: 2.5%;
+}
+
+.field-board .crystal-display:last-child {
+    margin-right: 15%;
+}

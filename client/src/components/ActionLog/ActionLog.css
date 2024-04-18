@@ -1,0 +1,49 @@
+.action-log {
+    padding: 4px 0;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    overflow-y: hidden;
+
+    height: calc(40% - 8px);
+    background-color: rgb(235, 235, 235);
+}
+
+.action-log .content {
+    width: 100%;
+    height: 100%;
+    color: black;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.action-log .content > div {
+    padding: 6px 8px;
+}
+
+.action-log .rest {
+    color: rgb(0, 159, 212);
+}
+
+.action-log .pick-up-merchant-card {
+    color: rgb(0, 163, 0);
+}
+
+.action-log .remove-crystal-overflow {
+    color: rgb(183, 0, 0);
+}
+
+.action-log .play-merchant-card {
+    color: rgb(183, 125, 0);
+}
+
+.action-log .buy-point-card {
+    color: rgb(100, 110, 200);
+}
+
+.action-log .odd {
+    background-color: #d3d3d3;
+}

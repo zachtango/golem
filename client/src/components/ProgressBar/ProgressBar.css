@@ -1,0 +1,25 @@
+.progress-bar {
+    border: 1px solid rgb(100, 110, 200);;;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+    height: 15px;
+}
+
+.progress-bar .progress {
+    background-color: rgb(100, 110, 200);
+
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    z-index: 0;
+}
+
+@media only screen and (min-width: 900px) {
+    
+}

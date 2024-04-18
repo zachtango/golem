@@ -1,0 +1,10 @@
+.crystal-display {
+    display: flex;
+    padding: 0 8px;
+}
+
+.crystal-display svg {
+    width: 15%;
+    height: fit-content;
+    aspect-ratio: 1;
+}

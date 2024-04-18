@@ -1,0 +1,255 @@
+[
+    {
+        "id": 0,
+        "type": "CrystalMerchantCard",
+        "crystals": [2, 0, 0, 0]
+    },
+    {
+        "id": 1,
+        "type": "UpgradeMerchantCard",
+        "numUpgrades": 2
+    },
+    {
+        "id": 2,
+        "type": "UpgradeMerchantCard",
+        "numUpgrades": 3
+    },
+    {
+        "id": 3,
+        "type": "CrystalMerchantCard",
+        "crystals": [3, 0, 0, 0]
+    },
+    {
+        "id": 4,
+        "type": "CrystalMerchantCard",
+        "crystals": [4, 0, 0, 0]
+    },
+    {
+        "id": 5,
+        "type": "CrystalMerchantCard",
+        "crystals": [1, 1, 0, 0]
+    },
+    {
+        "id": 6,
+        "type": "CrystalMerchantCard",
+        "crystals": [2, 1, 0, 0]
+    },
+    {
+        "id": 7,
+        "type": "CrystalMerchantCard",
+        "crystals": [0, 2, 0, 0]
+    },
+    {
+        "id": 8,
+        "type": "CrystalMerchantCard",
+        "crystals": [1, 0, 1, 0]
+    },
+    {
+        "id": 9,
+        "type": "CrystalMerchantCard",
+        "crystals": [0, 0, 1, 0]
+    },
+    {
+        "id": 10,
+        "type": "CrystalMerchantCard",
+        "crystals": [0, 0, 0, 1]
+    },
+    {
+        "id": 11,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [2, 0, 0, 0],
+        "toCrystals": [0, 2, 0, 0]
+    },
+    {
+        "id": 12,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [2, 0, 0, 0],
+        "toCrystals": [0, 0, 1, 0]
+    },
+    {
+        "id": 13,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [3, 0, 0, 0],
+        "toCrystals": [0, 1, 1, 0]
+    },
+    {
+        "id": 14,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [3, 0, 0, 0],
+        "toCrystals": [0, 3, 0, 0]
+    },
+    {
+        "id": 15,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [3, 0, 0, 0],
+        "toCrystals": [0, 0, 0, 1]
+    },
+    {
+        "id": 16,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [4, 0, 0, 0],
+        "toCrystals": [0, 0, 2, 0]
+    },
+    {
+        "id": 17,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [4, 0, 0, 0],
+        "toCrystals": [0, 0, 1, 1]
+    },
+    {
+        "id": 18,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [5, 0, 0, 0],
+        "toCrystals": [0, 0, 3, 0]
+    },
+    {
+        "id": 19,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [5, 0, 0, 0],
+        "toCrystals": [0, 0, 0, 2]
+    },
+    {
+        "id": 20,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 1, 0, 0],
+        "toCrystals": [3, 0, 0, 0]
+    },
+    {
+        "id": 21,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [1, 1, 0, 0],
+        "toCrystals": [0, 0, 0, 1]
+    },
+    {
+        "id": 22,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 2, 0, 0],
+        "toCrystals": [3, 0, 1, 0]
+    },
+    {
+        "id": 23,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 2, 0, 0],
+        "toCrystals": [0, 0, 2, 0]
+    },
+    {
+        "id": 24,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 2, 0, 0],
+        "toCrystals": [2, 0, 0, 1]
+    },
+    {
+        "id": 25,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 3, 0, 0],
+        "toCrystals": [2, 0, 2, 0]
+    },
+    {
+        "id": 26,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 3, 0, 0],
+        "toCrystals": [1, 0, 1, 1]
+    },
+    {
+        "id": 27,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 3, 0, 0],
+        "toCrystals": [0, 0, 3, 0]
+    },
+    {
+        "id": 28,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 3, 0, 0],
+        "toCrystals": [0, 0, 0, 2]
+    },
+    {
+        "id": 29,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 1, 0],
+        "toCrystals": [4, 1, 0, 0]
+    },
+    {
+        "id": 30,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 1, 0],
+        "toCrystals": [0, 2, 0, 0]
+    },
+    {
+        "id": 31,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 1, 0],
+        "toCrystals": [1, 2, 0, 0]
+    },
+    {
+        "id": 32,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [2, 0, 1, 0],
+        "toCrystals": [0, 0, 0, 2]
+    },
+    {
+        "id": 33,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 2, 0],
+        "toCrystals": [2, 1, 0, 1]
+    },
+    {
+        "id": 34,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 2, 0],
+        "toCrystals": [0, 2, 0, 1]
+    },
+    {
+        "id": 35,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 2, 0],
+        "toCrystals": [0, 0, 0, 2]
+    },
+    {
+        "id": 36,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 2, 0],
+        "toCrystals": [2, 3, 0, 0]
+    },
+    {
+        "id": 37,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 3, 0],
+        "toCrystals": [0, 0, 0, 3]
+    },
+    {
+        "id": 38,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 0, 1],
+        "toCrystals": [2, 2, 0, 0]
+    },
+    {
+        "id": 39,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 0, 1],
+        "toCrystals": [3, 0, 1, 0]
+    },
+    {
+        "id": 40,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 0, 1],
+        "toCrystals": [1, 1, 1, 0]
+    },
+    {
+        "id": 41,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 0, 1],
+        "toCrystals": [0, 0, 2, 0]
+    },
+    {
+        "id": 42,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 0, 1],
+        "toCrystals": [0, 3, 0, 0]
+    },
+    {
+        "id": 43,
+        "type": "TradeMerchantCard",
+        "fromCrystals": [0, 0, 0, 2],
+        "toCrystals": [1, 1, 3, 0]
+    }
+]

@@ -1,0 +1,71 @@
+.player-board {
+    height: 43.5%;
+    
+}
+
+.player-board .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+}
+
+.player-board .sub-head {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-board .crystal-count {
+    width: 20%;
+}
+
+.player-board .tokens {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player-board .token {
+    width: 40%;
+}
+
+.player-board .point-cards {
+    display: flex;
+    width: 60%;
+}
+
+.player-board .point-cards .card {
+    width: 12.5%;
+    margin-left: 2.5%;
+}
+
+.player-board .merchant-cards {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+}
+
+.player-board .merchant-cards .card {
+    width: 7.5%;
+    margin-left: calc(2% + 7% / 9);
+}
+
+.player-board .merchant-cards .card:first-child, .player-board .merchant-cards .card:nth-child(11) {
+    margin-left: 0;
+}
+
+.player-board .rest-button {
+    width: 6%;
+    aspect-ratio: 1;
+    
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.player-board .rest-button svg {
+    width: 100%;
+    height: 100%;
+    color: rgb(100, 110, 200);
+}

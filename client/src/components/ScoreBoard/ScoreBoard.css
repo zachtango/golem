@@ -1,0 +1,31 @@
+.score-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.score-board .players {
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+}
+
+.score-board .players > div {
+    border-bottom: 1px solid rgb(100, 110, 200);
+}
+
+.score-board .players > div:last-child {
+    border: none;
+}
+
+.score-board .players .points {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+    .score-board .players .points {
+        font-size: 14px;
+    }
+}

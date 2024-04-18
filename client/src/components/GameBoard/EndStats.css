@@ -1,0 +1,102 @@
+.end-stats {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #414453;
+    text-shadow: 0 0 3px rgba(0,0,0,.6);
+    color: white;
+}
+
+.end-stats h1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.end-stats-player {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 8px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.end-stats-player .head {
+    width: 60px;
+}
+
+.end-stats-player .name {
+    font-size: 12px;
+}
+
+.end-stats-player .points {
+    font-size: 10px;
+    color: rgb(180, 180, 180);
+    margin-top: 4px;
+}
+
+.end-stats-player .point-cards {
+    width: 50%;
+    display: flex;
+}
+
+.end-stats-player .card {
+    width: 13%;
+    margin-left: 8px;
+}
+
+@media only screen and (min-width: 450px) {
+
+    .end-stats h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .end-stats-player {
+        margin-top: 12px;
+    }
+
+    .end-stats-player .name {
+        font-size: 14px;
+    }
+
+    .end-stats-player .points {
+        font-size: 12px;
+    }
+
+    .end-stats-player .card {
+        margin-left: 12px;
+    }
+    
+}
+
+@media only screen and (min-width: 1100px) {
+
+    .end-stats h1 {
+        font-size: 28px;
+        margin-top: 32px;
+    }
+
+    .end-stats-player {
+        margin-top: 16px;
+    }
+
+    .end-stats-player .name {
+        font-size: 16px;
+    }
+
+    .end-stats-player .points {
+        font-size: 14px;
+    }
+
+    .end-stats-player .card {
+        margin-left: 16px;
+    }
+}
+

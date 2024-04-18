@@ -1,0 +1,51 @@
+.player-row {
+    height: 45px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.player-row .head {
+    font-size: 12px;
+    text-align: center;
+    width: 35%;
+}
+
+.player-row .desc {
+    font-size: 10px;
+    color: rgb(90, 90, 90);
+}
+
+.player-row .crystal-count {
+    width: 37.5%;
+}
+
+.player-row .tokens {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%
+}
+
+.player-row .token {
+    width: 45%;
+}
+
+.player-row .tokens > div {
+    height: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+    .player-row {
+        height: 60px;
+    }
+
+    .player-row .head {
+        font-size: 14px;
+    }
+
+    .player-row .desc {
+        font-size: 12px;
+    }
+}

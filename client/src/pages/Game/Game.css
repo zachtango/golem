@@ -1,0 +1,122 @@
+.token {
+    font-size: 12px;
+}
+
+.game {
+    background-color: rgb(100, 110, 200);
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.game .logo {
+    display: none;
+}
+
+.game-wrapper {
+    width: 100%;
+    max-width: 650px;
+}
+
+.game-wrapper > .head {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.game-wrapper > .head .status {
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+    padding: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.game-wrapper > .head .status .round {
+    font-weight: bold;
+    position: absolute;
+    left: 8px;
+}
+
+.game-wrapper > .head .status .golems {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-wrapper > .body {
+    margin-top: 8px;
+    width: 100%;
+    height: calc(100% - 64px);
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 2.5fr 3fr;
+    gap: 8px 8px;
+    grid-template-areas:
+        "game-board game-board"
+        "score-board log"
+    ;
+
+}
+
+.game-wrapper > .body .score-board {
+    grid-area: score-board;
+}
+
+.game-wrapper > .body .game-board {
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    grid-area: game-board;
+    padding: 8px;
+    border-radius: 4px;
+
+    aspect-ratio: 1.25;
+}
+
+.game-wrapper > .body .log {
+    grid-area: log;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 0;
+    min-height: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+    .token {
+        font-size: 16px;
+    }
+
+    .game .logo {
+        display: block;
+        color: white;
+        width: 150px;
+        height: 60px;
+        margin-top: 16px;
+    }
+
+    .game-wrapper {
+        max-width: 1400px;
+    }
+
+    .game-wrapper > .body {
+        height: calc((100vw - 16px) * 0.6 * 0.8);
+        max-height: 645px;
+
+        grid-template-rows: none;
+        grid-template-columns: 2fr 6fr 2fr;
+        grid-template-areas:
+            "score-board game-board log"
+        ;
+    }
+
+    .game-wrapper > .body .game-board {
+        padding: 16px;
+    }
+}
+

@@ -1,0 +1,32 @@
+
+
+.crystal-overflow-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crystal-overflow-modal h1 {
+    font-weight: bold;
+}
+
+.crystal-overflow-modal .crystals-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.crystal-overflow-modal .crystals-container > svg {
+    margin: 8px 0;
+}
+
+.crystal-overflow-modal .crystal-count {
+    width: 30%;
+}
+
+.crystal-overflow-modal .buttons {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}

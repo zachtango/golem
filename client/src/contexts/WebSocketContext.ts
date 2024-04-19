@@ -1,6 +1,6 @@
 
 import { createContext, useContext } from 'react'
-import { ClientRequest, GameInfo, RoomInfo, ServerErrorType, ServerResponse, UserInfo } from '../../../shared'
+import { ClientRequest, GameInfo, RoomInfo, UserInfo } from '../../../shared'
 
 export interface WebSocketsContextType {
     status?: number,

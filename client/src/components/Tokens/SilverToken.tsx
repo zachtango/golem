@@ -1,7 +1,7 @@
 import Silver from '../../assets/silvertoken.svg?react'
 
 
-export default function SilverToken({numTokens}) {
+export default function SilverToken({numTokens}: {numTokens: number}) {
 
 
     return (

@@ -16,8 +16,8 @@ export default function Room({
     hostId,
     users,
     bots,
-    status,
-    chat,
+    // status,
+    // chat,
 }: RoomProps) {
     const {send} = useWebSocket()
     const [showUserNameModal, setShowUserNameModal] = useState(false)

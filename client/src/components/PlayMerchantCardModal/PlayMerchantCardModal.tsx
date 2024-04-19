@@ -89,7 +89,7 @@ function UpgradeControls({
     return (
         <div className="upgrade-controls controls">
             <div className="upgrades">
-                {crystalsStack.slice(0, crystalsStack.length - 1).map((crystals, i) => (
+                {crystalsStack.slice(0, crystalsStack.length - 1).map((crystals) => (
                     <>
                         <CrystalCount
                             crystals={crystals}

@@ -1,7 +1,10 @@
 import './ProgressBar.css'
 
 
-export default function ProgressBar({complete, total}) {
+export default function ProgressBar({complete, total}: {
+    complete: number,
+    total: number
+}) {
 
     return (
         <div

@@ -31,11 +31,11 @@ export default function WebSocketProvider({ children }: { children: React.ReactN
 
     useEffect(() => {
         const userId = localStorage.getItem('userId')
-        const url = userId ? `ws://localhost:9001?userId=${userId}` : `ws://localhost:9001`
+        const url = userId ? `wss://golem.lol/socket/?userId=${userId}` : `wss://golem.lol/socket/`
 
         const socket = new WebSocket(url)
 
-        socket.onopen = (e) => {
+        socket.onopen = () => {
             const url = new URL(window.location.href)
             const roomId = url.searchParams.get('roomId')
 

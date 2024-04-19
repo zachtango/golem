@@ -19,10 +19,10 @@ export default function Board({
     ownPlayer,
     player,
 
-    id,
-    round,
-    turn,
-    maxGolems,
+    // id,
+    // round,
+    // turn,
+    // maxGolems,
     isComplete,
 
     numCopperTokens,
@@ -34,7 +34,7 @@ export default function Board({
 
     players,
 
-    actions,
+    // actions,
 
     onActiveMerchantCardClick,
     onActivePointCardClick,

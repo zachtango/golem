@@ -7,12 +7,12 @@ import { Player } from '../../../../shared'
 
 export default function PlayerRow({
     selected=false,
-    id,
+    // id,
     name,
-    turn,
+    // turn,
     crystals,
-    merchantCardIds,
-    usedMerchantCardIds,
+    // merchantCardIds,
+    // usedMerchantCardIds,
     pointCardIds,
     numCopperTokens,
     numSilverTokens,

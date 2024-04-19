@@ -62,7 +62,7 @@ export class GameService {
                 pointCardIds: [],
                 merchantCardIds: [0, 1],
                 usedMerchantCardIds: [],
-                crystals: i === 0 ? [3, 0, 0, 0] : i < 4 ? [4, 0, 0, 0] : [3, 1, 0, 0]
+                crystals: i === 0 ? [3, 0, 0, 0] : i < 3 ? [4, 0, 0, 0] : [3, 1, 0, 0]
             })
         })
 
@@ -78,7 +78,7 @@ export class GameService {
                 pointCardIds: [],
                 merchantCardIds: [0, 1],
                 usedMerchantCardIds: [],
-                crystals: turn === 0 ? [3, 0, 0, 0] : turn < 4 ? [4, 0, 0, 0] : [3, 1, 0, 0]
+                crystals: turn === 0 ? [3, 0, 0, 0] : turn < 3 ? [4, 0, 0, 0] : [3, 1, 0, 0]
             })
         })
 

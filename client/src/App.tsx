@@ -47,6 +47,7 @@ function App() {
         chat={room.chat}
         activePointCardIds={game.activePointCardIds.slice().reverse()}
         activeMerchantCardIds={game.activeMerchantCardIds.slice().reverse()}
+        fieldCrystals={game.fieldCrystals.slice().reverse()}
       />}
 
     </>
